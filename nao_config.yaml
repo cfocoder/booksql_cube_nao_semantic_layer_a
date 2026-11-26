@@ -1,6 +1,6 @@
-# Formal scenario A: no databases, MCPs, or business context.
-# Runtime secrets are supplied outside Git by the deployment environment.
-project_name: tesis-condition-a
+# BookSQL scenario A: no data access or domain context.
+# Runtime model credentials are supplied outside Git.
+project_name: booksql-condition-a
 llm:
   providers:
     - provider: openai
