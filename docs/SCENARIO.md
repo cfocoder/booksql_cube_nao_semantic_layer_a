@@ -3,7 +3,7 @@
 ## Required Nao project
 
 ```text
-Project: tesis-condition-a
+Project: booksql-condition-a
 Repository: https://github.com/cfocoder/booksql_cube_nao_semantic_layer_a.git
 Branch: main
 ```
@@ -12,10 +12,10 @@ Branch: main
 
 ```text
 LLM: yes
-PostgreSQL: no
-Cube MCP: no
+SQLite MCP: no
+Cube BookSQL MCP: no
 Business skill: no
 Technical schema context: no
 ```
 
-A deployment should expose no database or MCP tools in the project. The presence of `OPENAI_*` or `OPENROUTER_*` runtime variables is expected; they are model credentials, not data access.
+A deployment should expose no database or MCP tools in this project. Model credentials may be supplied by the runtime, but do not declare or include data access.
